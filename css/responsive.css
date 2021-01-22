@@ -1,0 +1,75 @@
+@media screen and (max-width: 980px){
+    .container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8{
+         background: rgb(183, 183, 243);
+       
+        
+    }
+    .container{
+        width: 982px;
+
+
+    }
+    /* Conainer2 */
+    .whdoBox{
+        margin: 10px 0px 10px 31px;
+    }
+    /* End Container2 */
+    /* Container 3 start */
+    .box{
+        grid-template-columns: repeat(5,170px);
+        
+    }
+    .olwBox{
+        margin-top: 4px;
+         
+      }
+    .olwBox img{
+        padding-left: 0px;
+        
+    }
+    /* Container 3 end */
+    /* Container 5 Start */
+    .ohc-box{
+        grid-template-columns: repeat(4, 245px);
+        margin-left: 0px;
+        
+    }
+    .ohc-box a{
+        padding: 12px;
+    }
+    .ohc-box a img{
+        /* height: 68px; */
+        width: 176px;
+    }
+    /* Container 5 end */
+    /* Container 6 start*/
+    .team{
+        grid-template-columns: repeat(5, 196px);
+        margin-left: 0px;
+        margin-top: 46px;
+    }
+    /* container 7 start  */
+    .fl-left p{
+        padding: 2px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+        margin: 11px;
+        
+    }
+    .news1 a label{
+        
+    }
+    .fl-middle .news1 {
+        margin-top: 0px;
+        float: left;
+        margin-left: 45px;
+    }
+    .fl-right h2 {
+        font-size: 16px;
+        padding: 6px 42px;
+        margin: 0px 0px;
+        
+    }
+
+
+}
