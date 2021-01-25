@@ -16,7 +16,7 @@ h1, h2, p, a{
     width: 100%;
     margin: auto;
 }
-.container1{
+#container1{
     background-image: url(img/Home-background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +26,7 @@ h1, h2, p, a{
     opacity: .9;
     overflow: hidden;
 } 
-.container1:after{
+#container1:after{
     content: '';
     clear: both;
     display: block;
@@ -87,7 +87,7 @@ li a:hover{
 }
 /* Navbar END */
 /* Content start */
-.container1 p{
+#container1 p{
     text-align: center;
     font-size: 4rem;
     font-weight: bold;
@@ -109,7 +109,7 @@ li a:hover{
 }
 /* Content END */
 /* Foother Start */
-.container1 footer{
+#container1 footer{
     text-align: center;
     background-color: #efe2d5;
     width: 122px;
@@ -118,7 +118,7 @@ li a:hover{
     margin-top: 281px;
     margin-bottom: 9px; 
 }
-.container1 footer a{
+#container1 footer a{
     display: block;
     margin: auto;
     color: #89847d;
@@ -135,12 +135,12 @@ label svg{
                     /* What WE Do Start  */
 
 /* all */
-.container2{
+#container2{
     background-color: #ffffff;
     color: #828181;
 
 }
-.container2 hr{
+#container2 hr{
     width: 53px;
     height: .1rem;
     position: relative;
@@ -211,13 +211,13 @@ label svg{
                     /* OUR LAST WORK Start  */
 
 /* all */
-.container3{
+#container3{
     background-color: #54d154;
     color: #828181;
     overflow: hidden;
 
 }
-.container3 hr{
+#container3 hr{
     width: 53px;
     height: .1rem;
     position: relative;
@@ -318,13 +318,13 @@ label svg{
 /* Footer End */
               /* OUR LAst WORk End  */
               /* Testimonials start */
-.container4{
+#container4{
     background-color: #ffffff;
     color: #828181;
     overflow: hidden;
 
 }
-.container4 hr{
+#container4 hr{
     width: 53px;
     height: .1rem;
     position: relative;
@@ -348,19 +348,19 @@ label svg{
     bottom: 28px;
     font-size: 1.3rem;
 }
-.container4 p{
+#container4 p{
     text-align: center;
     width: 30%;
     margin: auto;
     margin-bottom: 33px;
     color: #444444 !important;
 }
-.container4 .footer{
+#container4 .footer{
     width: 206px;
     margin: auto;
     margin-bottom: 30px;
 }
-.container4 img{
+#container4 img{
     border-style: none;
     margin: 14px 0px;
 }
@@ -394,14 +394,14 @@ h4 span{
 
               /* Testimonials End */
               /* OUR HAppy Client Start */
-.container5{
+#container5{
     
     background-color: #f2f1f1;
     color: #828181;
     overflow: hidden;
 
 }
-.container5 hr{
+#container5 hr{
     width: 53px;
     height: .1rem;
     position: relative;
@@ -461,7 +461,7 @@ h4 span{
               /* OUR HAppy Client End */
 
 /* Meet OUr tem start */
-.container6{
+#container6{
     background-color: #54D054;
     overflow: hidden;
 }
@@ -541,7 +541,7 @@ h4 span{
 
               /* Last section startt */
 
-.container7{
+#container7{
     display: flex;
     background-color: #333333;
     color: white;
@@ -576,7 +576,7 @@ h4 span{
     opacity: .7;
     
 }
-.container7 .socal-icon{
+#container7 .socal-icon{
     width: 88px;
     height: 23px;
     background-color: rgb(39, 39, 35);
@@ -584,7 +584,7 @@ h4 span{
     margin: auto;
     border-radius: 45px;
  }
- .container7 .socal-icon svg{
+#container7 .socal-icon svg{
     /* color: green; */
     padding: 3px;
     padding-top: 3px;
@@ -671,20 +671,20 @@ h4 span{
                           /* Last section end */
 
                         /* Footer start */
-.container8{
+#container8{
     background-color:  #222222;
     overflow: hidden;
 }
-.container8 h1{
+#container8 h1{
     margin-bottom: 2px;
 }
-.container8 hr{
+#container8 hr{
     width: 35px;
     outline: none;
     opacity: .5;
     background-color: black;
 }
-.container8 .footer-img{
+#container8 .footer-img{
     display: flex;
     margin: 26px;
 }
@@ -692,7 +692,7 @@ h4 span{
     margin: 20px;
     margin-left: 137px;
 }
-.container8 footer{
+#container8 footer{
     color: white;
     background-color: #111111;
     text-align: center;
